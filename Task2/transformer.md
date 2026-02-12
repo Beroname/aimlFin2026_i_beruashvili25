@@ -36,17 +36,15 @@ Transformers are now the dominant architecture in NLP (BERT, GPT, T5, LLaMA), vi
 
 (Word count: ~310)
 
-## Visualizations
+### Visualization of the Attention Layer Mechanism
 
-### Attention Mechanism
+![Self-Attention Heatmap](attention_heatmap.png)
+*Example of attention weights between tokens. Brighter colors indicate stronger relationships.*
 
-![Attention heatmap example](https://jalammar.github.io/images/t/transformer_self-attention_visualization.png)  
-*Example of attention weights — brighter cells show stronger attention*
+### Visualization of Positional Encoding
 
-### Positional Encoding
-
-![Positional encoding visualization](https://jalammar.github.io/images/t/attention-is-all-you-need-positional-encoding-large-example.png)  
-*Sine/cosine positional encodings for different dimensions*
+![Positional Encoding](positional_encoding.png)
+*Sinusoidal positional encodings added to token embeddings (first 50 positions shown).*
 
 (You can also generate them locally with NumPy/Matplotlib if preferred.)
 
